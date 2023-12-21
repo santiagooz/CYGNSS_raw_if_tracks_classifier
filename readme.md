@@ -1,4 +1,4 @@
-# NASA CMR Data Scraper and OpenDAP Data Extractor
+# NASA CMR Data Scraper, OpenDAP Data Extractor and Tracks Classifier
 
 ## CMR Data Scraper (`cmr_scraper.py`)
 
