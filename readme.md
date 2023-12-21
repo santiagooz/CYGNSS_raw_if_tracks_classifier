@@ -29,10 +29,10 @@ This script retrieves data from NASA's OpenDAP server for a specific set of case
 This script visualizes the tracks from the extracted data on a map using Cartopy. It classifies tracks based on their location, distinguishing between tracks over the ocean and those within a specified rectangular region (Amazon basin). The classified information is saved in a JSON file named Raw_if_tracks_classified.json.
 
 ### Usage
-1. Ensure you have the required libraries installed: cartopy, matplotlib, json, global_land_mask.
-2. Execute the script (classify_tracks.py).
-3. The script reads track information from a JSON file (Raw IF cases parameters.json).
-4. It visualizes and classifies tracks based on their location, saving the results in Raw_if_tracks_classified.json.
+1. Ensure you have the required libraries installed: `cartopy`, `matplotlib`, `json`, `global_land_mask`.
+2. Execute the script (`classify_tracks.py`).
+3. The script reads track information from a JSON file (`Raw IF cases parameters.json`).
+4. It visualizes and classifies tracks based on their location, saving the results in `Raw_if_tracks_classified.json`.
 
 ### Additional Notes
 - The OpenDAP requests include authentication with a specific username and password.
