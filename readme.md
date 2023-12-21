@@ -1,5 +1,5 @@
 # NASA CMR Data Scraper, OpenDAP Data Extractor and Tracks Classifier
-This set of Python scripts looks for all the available CYGNSS Level 1 Raw Intermediate Frequency Data Records, then extracts relevant parameters from their respective CYGNSS Level 1 Science Data Records. Using those parameters it classifies the tracks by location of the CYGNSS satellites.
+This set of Python scripts looks for all the available CYGNSS Level 1 Raw Intermediate Frequency Data Records, then extracts relevant parameters from their respective CYGNSS Level 1 Science Data Records metadata. Using those parameters it classifies the tracks by location of the CYGNSS satellites.
 
 
 ## CMR Data Scraper (`cmr_scraper.py`)
